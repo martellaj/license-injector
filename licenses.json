@@ -1,0 +1,21 @@
+/*
+ * Copyright (c) Joe Martella All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+{
+  "javascript": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
+  "html": "<!-- Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license. -->\n<!-- See LICENSE in the project root for license information. -->\n\n",
+  "json": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
+  "csharp": "// Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n// See LICENSE in the project root for license information.\n\n",
+  "c": "/*\n  Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n  See LICENSE in the project root for license information.\n*/\n\n",
+  "cpp":"/*\n  Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n  See LICENSE in the project root for license information.\n*/\n\n",
+  "java": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
+  "ruby": "# Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n# See LICENSE in the project root for license information.\n\n",
+  "swift": "/*\n  Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n  See LICENSE in the project root for license information.\n*/\n\n",
+  "typescript": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
+  "php": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
+  "python": "# Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n# See LICENSE in the project root for license information.\n\n",
+  "jade": "//\n  Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n  See LICENSE in the project root for license information.\n\n",
+  "mit": "The MIT License (MIT)\n\nCopyright (c) 2015 <OWNER>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+}

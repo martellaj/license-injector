@@ -1,0 +1,67 @@
+{
+  "name": "license-injector",
+  "displayName": "License Injector",
+  "description": "License Injector injects a license into your project and information headers into your code.",
+  "version": "0.0.1",
+  "publisher": "martellaj",
+  "icon": "readme-assets/logo.png",
+  "galleryBanner": {
+        "color": "#5C2D91",
+        "theme": "dark"
+  },
+  "license": "MIT",
+  "bugs": {
+        "url": "https://github.com/martellaj/license-injector/issues",
+        "email": "martellaj@live.com"
+  },
+  "homepage": "https://github.com/martellaj/license-injector",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/martellaj/license-injector.git"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.allFiles",
+    "onCommand:extension.currentFile"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.allFiles",
+        "title": "License Injector: Inject all files"
+      },
+      {
+        "command": "extension.currentFile",
+        "title": "License Injector: Inject current file"
+      }
+    ],
+    "configuration": {
+      "title": "License Injector configuration",
+      "type": "object",
+      "properties": {
+        "licenseInjector.owner": {
+          "type": "string",
+          "default": "Joe Martella",
+          "description": "The person or organization the copyright belongs to."
+        },
+        "licenseInjector.ignore": {
+          "type": "string",
+          "default": "node_modules,bin",
+          "description": "A comma-delimited string of tokens to ignore in file paths. Files with these tokens in their paths will not be processed."
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "vscode": "0.10.x"
+  },
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
