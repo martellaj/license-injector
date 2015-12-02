@@ -16,7 +16,7 @@ License Injector is currently in *super beta* and there might be bugs. Please lo
 
 1. Open up the `Command Palette` (`F1`, `CTRL+SHIFT+P`).
 2. Type `ext install` and hit `ENTER`.
-3. Type `License Injector` and click the download icon (![download icon](readme-assets/download.png)).
+3. Type `License Injector` and click the download icon (![download icon](https://raw.githubusercontent.com/martellaj/license-injector/master/readme-assets/download.png)).
 4. Restart VS Code to make the extension available.
 
 ## Configuration options
