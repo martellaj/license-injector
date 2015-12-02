@@ -1,8 +1,3 @@
-/*
- * Copyright (c) Joe Martella All rights reserved. Licensed under the MIT license.
- * See LICENSE in the project root for license information.
- */
-
 {
   "javascript": "/*\n * Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.\n */\n\n",
   "html": "<!-- Copyright (c) <OWNER> All rights reserved. Licensed under the MIT license. -->\n<!-- See LICENSE in the project root for license information. -->\n\n",
