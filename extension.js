@@ -10,8 +10,7 @@ var Q = require('q');
 var fs = require('fs');
 var licenses = require('./licenses.json');
 
-// this method is called when your extension is activated
-// your extension is activated the very first time the command is executed
+// This method is called when your extension is activated.
 function activate (context) {
   console.log('License Injector is ready and waiting.');
 
