@@ -2,7 +2,7 @@
   "name": "license-injector",
   "displayName": "License Injector",
   "description": "License Injector injects a license into your project and information headers into your code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "martellaj",
   "icon": "readme-assets/logo.png",
   "galleryBanner": {
