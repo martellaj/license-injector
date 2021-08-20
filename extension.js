@@ -125,7 +125,7 @@ function addHeaderLicense (fileInfo, owner) {
       }
 
       // Remove extra "/" at beginning of path.
-      var truePath = fileInfo.path.substr(1);
+      var truePath = fileInfo.path.indexOf('//') == 0 ? fileInfo.path.substr(1) :  fileInfo.path;
 
       // Open file, add license, save file.
       var data = fs.readFileSync(truePath).toString();
