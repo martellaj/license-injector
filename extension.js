@@ -49,7 +49,7 @@ function activate (context) {
 
     // Get current file and check if it's supported.
     var currentFile = editor.document;
-    var licenseText = getLicense(currentFile._languageId, owner);
+    var licenseText = getLicense(getLangId(currentFile), owner);
 
     if (licenseText === null) {
       vscode.window.showErrorMessage('Sorry, this filetype isn\'t supported yet. Contact @martellaj to get it included.');
@@ -109,6 +109,13 @@ function isTargetFile (ignoreTokens) {
   };
 }
 
+// @name getLangId
+// @desc Returns the language ID of file.
+// @param file A File object.
+function getLangId(file) {
+  return file._languageId ? file._languageId : file.languageId
+}
+
 // @name addHeaderLicense
 // @desc Adds the appropriate license text to given file.
 // @param fileInfo An object with file path and language.
@@ -117,7 +124,7 @@ function addHeaderLicense (fileInfo, owner) {
   vscode.workspace.openTextDocument(fileInfo.path)
     .then(function (file) {
       var fileInfo = this;
-      var licenseText = getLicense(file._languageId, owner);
+      var licenseText = getLicense(getLangId(file), owner);
 
       // If filetype is unsupported, just return without touching the file.
       if (licenseText === null) {
